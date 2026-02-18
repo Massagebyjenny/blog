@@ -1,0 +1,19 @@
+---
+layout: layouts/base.njk
+title: Blog
+---
+<section class="section">
+  <div class="container">
+    <h1>Blog</h1>
+    <p class="lead">Updates, recovery guidance, and clinical notes.</p>
+    <div class="cards">
+      {% for post in collections.posts | reverse %}
+        <article class="card">
+          <h2 class="card-title"><a href="{{ post.url }}">{{ post.data.title }}</a></h2>
+          <div class="muted">{{ post.date | date('yyyy-LL-dd') }}</div>
+          {% if post.data.summary %}<p>{{ post.data.summary }}</p>{% endif %}
+        </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>

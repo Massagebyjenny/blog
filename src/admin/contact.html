@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact | Neuro-Structural Alignment™</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html" aria-label="Neuro-Structural Alignment home">
+  <img class="brand-logo" src="assets/logo.png" alt="Neuro-Structural Alignment™ — Jennifer Wiersma, LMT" />
+</a>
+
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav id="primary-nav" class="nav" aria-label="Primary navigation">
+      <ul>
+        <li><a class="" href="index.html">Home</a></li>
+        <li><a class="" href="method.html">Method</a></li>
+        <li><a class="" href="care.html">Patient Care</a></li>
+        <li><a class="" href="founder.html">Founder</a></li>
+        <li><a class="" href="professionals.html">Professionals</a></li>
+        <li><a href="blog/">Blog</a>
+\1</li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+<div class="sheet-backdrop" data-sheet-close></div>
+<aside class="menu-sheet" id="menuSheet" aria-hidden="true">
+  <div class="menu-sheet__top">
+    <div class="menu-sheet__title">Menu</div>
+    <button class="menu-sheet__close" type="button" aria-label="Close menu" data-sheet-close>✕</button>
+  </div>
+  <nav class="menu-sheet__nav" aria-label="Mobile navigation">
+    <a class="menu-item" href="index.html"><img class="menu-item__icon" src="assets/icons/practice.svg" alt=""><span>Home</span></a>
+    <a class="menu-item" href="method.html"><img class="menu-item__icon" src="assets/icons/focus.svg" alt=""><span>Method</span></a>
+    <a class="menu-item" href="care.html"><img class="menu-item__icon" src="assets/icons/flow.svg" alt=""><span>Patient Care</span></a>
+    <a class="menu-item" href="founder.html"><img class="menu-item__icon" src="assets/icons/people.svg" alt=""><span>Founder</span></a>
+    <a class="menu-item" href="professionals.html"><img class="menu-item__icon" src="assets/icons/signal.svg" alt=""><span>Professionals</span></a>
+    <a class="menu-item" href="contact.html"><img class="menu-item__icon" src="assets/icons/map.svg" alt=""><span>Contact</span></a>
+  </nav>
+</aside>
+<main>
+<section class="section"><div class="container">
+  <div class="kicker">Contact</div>
+  <h1 style="margin-top:8px;">Practice information</h1>
+  <div class="card" style="margin-top:18px;">
+    <p style="margin-top:0;"><strong>Neuro-Structural Alignment™</strong><br><strong>Jennifer Wiersma, LMT</strong><br>220 George Bush Blvd<br>Delray Beach, FL 33444</p>
+    <p style="margin-bottom:0;">Phone: <a class="tel" href="tel:+15617030636">561-703-0636</a></p>
+    <p class="small" style="margin-top:10px;margin-bottom:0;">Care is provided by appointment only. Monday–Friday • 10:00 AM – 5:00 PM</p>
+  </div>
+</div></section>
+
+<section class="section"><div class="container split">
+  <div class="card" id="patient-evaluation">
+    <div class="kicker">Patients</div>
+    <h2>Request an evaluation</h2>
+    <p class="small">This form is configured for Netlify Forms. After deploy, Netlify will capture submissions under the “Forms” tab.</p>
+    <form class="form" name="patient-evaluation" method="POST" data-netlify="true">
+      <input type="hidden" name="form-name" value="patient-evaluation" />
+      <label>Full name
+        <input name="name" required />
+      </label>
+      <label>Phone
+        <input name="phone" required />
+      </label>
+      <label>Email
+        <input name="email" type="email" required />
+      </label>
+      <label>What are you seeking care for?
+        <textarea name="message" required></textarea>
+      </label>
+      <button class="btn" type="submit">Send request</button>
+    </form>
+    <p class="small" style="margin-top:12px;">Pricing is intentionally not published online; care is evaluation-led and individualized.</p>
+  </div>
+
+  <div class="card" id="professional-inquiry">
+    <div class="kicker">Professionals</div>
+    <h2>Professional inquiry</h2>
+    <form class="form" name="professional-inquiry" method="POST" data-netlify="true">
+      <input type="hidden" name="form-name" value="professional-inquiry" />
+      <label>Name
+        <input name="name" required />
+      </label>
+      <label>Profession / license
+        <input name="profession" required />
+      </label>
+      <label>Email
+        <input name="email" type="email" required />
+      </label>
+      <label>Message
+        <textarea name="message" required></textarea>
+      </label>
+      <button class="btn secondary" type="submit">Send inquiry</button>
+    </form>
+    <p class="small" style="margin-top:12px;">Professional inquiries are welcomed and answered as availability permits.</p>
+  </div>
+</div></section>
+
+<section class="section"><div class="container">
+  <div class="card">
+    <div class="kicker">Response timing</div>
+    <h2>Thoughtful pacing</h2>
+    <p>Because care is individualized and thoughtfully paced, response times may vary.</p>
+    <p class="small">If your inquiry is time-sensitive, calling is best.</p>
+  </div>
+</div></section>
+
+</main>
+
+<footer class="site-footer compact-footer">
+  <div class="container compact-footer__inner">
+    <div><strong>Jennifer Wiersma, LMT</strong></div>
+    <div>220 George Bush Blvd · Delray Beach, FL 33444 · <a class="tel" href="tel:+15617030636">561-703-0636</a></div>
+    <div class="small">MA43137 · MM43960 · © <span data-year></span> Neuro-Structural Alignment™</div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

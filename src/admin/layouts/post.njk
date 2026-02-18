@@ -1,0 +1,13 @@
+---
+layout: layouts/base.njk
+---
+<section class="section">
+  <div class="container">
+    <a href="/blog/" class="muted">← Back to Blog</a>
+    <h1>{{ title }}</h1>
+    <div class="muted">{{ page.date | date('yyyy-LL-dd') }}</div>
+    {% if cover %}<img src="{{ cover }}" alt="" style="width:100%;border-radius:14px;margin-top:14px;" />{% endif %}
+    {% if summary %}<p class="lead">{{ summary }}</p>{% endif %}
+    <div class="prose" style="margin-top:16px;">{{ content | safe }}</div>
+  </div>
+</section>
