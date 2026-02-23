@@ -408,3 +408,14 @@ img.site-logo, .site-logo img, header img.logo, header .logo img, .navbar img, .
     max-width: 260px;
   }
 }
+
+.menu-sheet{
+  background: #ffffff;
+}
+.menu-item{
+  color: #0b0f14;
+}
+.menu-item:hover{ background: #f6f8fa; }
+.menu-sheet__close{
+  background: #fff;
+}
