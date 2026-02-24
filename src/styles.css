@@ -419,3 +419,38 @@ img.site-logo, .site-logo img, header img.logo, header .logo img, .navbar img, .
 .menu-sheet__close{
   background: #fff;
 }
+
+/* ===============================
+   DARK MOBILE MENU FIX
+   =============================== */
+
+.menu-sheet{
+  background: #0f1720 !important;
+  border-top: 1px solid rgba(255,255,255,0.08) !important;
+  box-shadow: 0 -16px 44px rgba(0,0,0,.6) !important;
+}
+
+.menu-sheet__top{
+  border-bottom: 1px solid rgba(255,255,255,0.08) !important;
+}
+
+.menu-sheet__title{
+  color: #e8eef6 !important;
+}
+
+.menu-sheet__close{
+  background: #0f1720 !important;
+  border: 1px solid rgba(255,255,255,0.08) !important;
+  color: #e8eef6 !important;
+}
+
+.menu-item{
+  color: #e8eef6 !important;
+}
+
+.menu-item:hover{
+  background: rgba(255,255,255,0.06) !important;
+}
+
+
+
