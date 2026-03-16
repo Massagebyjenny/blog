@@ -1,8 +1,6 @@
 backend:
-  name: github
-  repo: Massagebyjenny/blog
+  name: git-gateway
   branch: main
-  auth_type: pkce
 
 media_folder: "src/assets/uploads"
 public_folder: "/assets/uploads"
