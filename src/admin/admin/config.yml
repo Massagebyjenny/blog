@@ -1,9 +1,19 @@
 backend:
-  name: github
+  name: git-gateway
   repo: Massagebyjenny/blog
   branch: main
-  base_url: https://auth.decapbridge.com
   auth_type: pkce
+  base_url: https://auth.decapbridge.com
+  auth_endpoint: /sites/9ad179c6-b202-4abd-81ac-ace41b7eac4e/pkce
+  auth_token_endpoint: /sites/9ad179c6-b202-4abd-81ac-ace41b7eac4e/token
+  gateway_url: https://gateway.decapbridge.com
+
+  commit_messages:
+    create: Create {{collection}} “{{slug}}” - {{author-name}} <{{author-login}}> via DecapBridge
+    update: Update {{collection}} “{{slug}}” - {{author-name}} <{{author-login}}> via DecapBridge
+    delete: Delete {{collection}} “{{slug}}” - {{author-name}} <{{author-login}}> via DecapBridge
+    uploadMedia: Upload “{{path}}” - {{author-name}} <{{author-login}}> via DecapBridge
+    deleteMedia: Delete “{{path}}” - {{author-name}} <{{author-login}}> via DecapBridge
 
 media_folder: "src/assets/uploads"
 public_folder: "/assets/uploads"
