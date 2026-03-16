@@ -1,6 +1,12 @@
 backend:
   name: git-gateway
+  repo: Massagebyjenny/blog
   branch: main
+  auth_type: pkce
+  base_url: https://auth.decapbridge.com
+  auth_endpoint: /sites/9ad179c6-b202-4abd-81ac-ace41b7eac4e/pkce
+  auth_token_endpoint: /sites/9ad179c6-b202-4abd-81ac-ace41b7eac4e/token
+  gateway_url: https://gateway.decapbridge.com
 
 media_folder: "src/assets/uploads"
 public_folder: "/assets/uploads"
