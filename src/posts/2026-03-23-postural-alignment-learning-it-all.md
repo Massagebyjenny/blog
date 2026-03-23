@@ -6,11 +6,12 @@ cover: /assets/uploads/80cdf03886ec5893614e913ebe2d6085.jpg
 ---
 **Understanding Posture: What the Body Reveals and How It Can Be Restored**
 
-<https://jennywiersmalmt.com/assets/uploads/12.jpg>
+![Image](https://jennywiersmalmt.com/assets/uploads/12.jpg)
 
-<https://jennywiersmalmt.com/assets/uploads/6.jpg>
+![Image](https://jennywiersmalmt.com/assets/uploads/6.jpg)
 
-<https://jennywiersmalmt.com/assets/uploads/8.jpg>
+![Image](https://jennywiersmalmt.com/assets/uploads/8.jpg)
+
 
 Posture is more than how someone stands or sits — it is 
 
