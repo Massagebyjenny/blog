@@ -52,7 +52,7 @@ Posture affects far more than appearance. It directly influences how the body fu
 
 Poor alignment can contribute to reduced lung capacity, compression of internal organs, decreased oxygen flow, muscle tightness, headaches, fatigue, and reduced mental clarity.
 
-These effects often develop gradually, which is why they are frequently overlooked. Many peop<img src="https://jennywiersmalmt.com/assets/uploads/12.jpg" style="width:100%; height:auto;" />le live with chronic tension or low energy without realizing that posture is a contributing factor.
+These effects often develop gradually, which is why they are frequently overlooked. Many people live with chronic tension or low energy without realizing that posture is a contributing factor.
 
 **Why These Patterns Don’t Resolve on Their Own**
 
