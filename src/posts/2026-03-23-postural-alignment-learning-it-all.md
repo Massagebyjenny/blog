@@ -6,7 +6,7 @@ cover: /assets/uploads/80cdf03886ec5893614e913ebe2d6085.jpg
 ---
 **Understanding Posture: What the Body Reveals and How It Can Be Restored**
 
-![Image](https://jennywiersmalmt.com/assets/uploads/12.jpg)
+<img src="https://jennywiersmalmt.com/assets/uploads/12.jpg" style="width:100; height:auto" />
 
 ![Image](https://jennywiersmalmt.com/assets/uploads/6.jpg)
 
