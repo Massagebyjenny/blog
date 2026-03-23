@@ -1,6 +1,6 @@
 ---
 title: "Postural Alignment: Learning It All"
-date: 2026-03-23T12:11:00.000-04:00
+date: 2026-03-23T12:38:00.000-04:00
 summary: How Postural Alignment affects your body
 cover: /assets/uploads/80cdf03886ec5893614e913ebe2d6085.jpg
 ---
