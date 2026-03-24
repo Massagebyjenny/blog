@@ -2,7 +2,7 @@
 title: The biggest misconceptions about pain
 date: 2026-03-24T13:07:00.000-04:00
 ---
-<div style="max-width:720px; margin:0 auto; font-size:18px; line-height:1.75; color:#222;">
+<div style="max-width:720px; margin:40px auto; padding:28px; background:rgba(0,0,0,0.65); border-radius:12px; font-size:18px; line-height:1.75; color:#ffffff;">
 
 <div style="font-size:30px; font-weight:600; margin-bottom:28px; line-height:1.3;">
 Why Pain Is Not Where the Problem Is
@@ -29,7 +29,7 @@ The body is not a collection of isolated parts—it is an interconnected system.
 </p>
 
 <p style="margin-bottom:20px;">
-Fascia allows force and movement to travel throughout the body. When it becomes restricted—due to injury, repetitive use, or long-standing tension—it creates subtle pulling forces that influence the body globally, not just locally.
+Fascia allows force and movement to travel throughout the body. When it becomes restricted—due to injury, repetitive use, or long-standing tension—it creates pulling forces that influence the body globally, not just locally.
 </p>
 
 <p style="margin-bottom:40px;">
