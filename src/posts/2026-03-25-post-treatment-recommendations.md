@@ -1,6 +1,7 @@
 ---
 title: Post-Treatment Recommendations
-date: 2026-03-25T11:53:00.000-04:00
+date: 2026-03-25T11:43:00.000-04:00
+cover: /assets/uploads/img_4696.png
 ---
 <div style="color:#ffffff;">
 
