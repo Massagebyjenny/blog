@@ -10,15 +10,15 @@
 
 <header class="site-header">
   <div class="container header-inner">
-    <a class="brand" href="/" aria-label="Structural Fascial Realignment home">
-      <img class="brand-logo" src="/assets/logo.png" alt="Structural Fascial Realignment — Jenny Wiersma, LMT" />
+    <a class="brand" href="/">
+      <img class="brand-logo" src="/assets/logo.png" />
     </a>
 
-    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav">
+    <button class="nav-toggle" aria-expanded="false">
       <span></span><span></span><span></span>
     </button>
 
-    <nav id="primary-nav" class="nav" aria-label="Primary navigation">
+    <nav class="nav">
       <ul>
         <li><a href="/">Home</a></li>
         <li><a href="/method/">Method</a></li>
@@ -33,19 +33,14 @@
 
 <div class="sheet-backdrop" data-sheet-close></div>
 
-<aside class="menu-sheet" id="menuSheet" aria-hidden="true">
-  <div class="menu-sheet__top">
-    <div class="menu-sheet__title">Menu</div>
-    <button class="menu-sheet__close" type="button" data-sheet-close>✕</button>
-  </div>
-
+<aside class="menu-sheet" id="menuSheet">
   <nav class="menu-sheet__nav">
-    <a class="menu-item" href="/"><img class="menu-item__icon" src="/assets/icons/practice.svg"><span>Home</span></a>
-    <a class="menu-item" href="/method/"><img class="menu-item__icon" src="/assets/icons/focus.svg"><span>Method</span></a>
-    <a class="menu-item" href="/care/"><img class="menu-item__icon" src="/assets/icons/flow.svg"><span>Patient Care</span></a>
-    <a class="menu-item" href="/founder/"><img class="menu-item__icon" src="/assets/icons/people.svg"><span>Founder</span></a>
-    <a class="menu-item" href="/professionals/"><img class="menu-item__icon" src="/assets/icons/signal.svg"><span>Professionals</span></a>
-    <a class="menu-item" href="/contact/"><img class="menu-item__icon" src="/assets/icons/map.svg"><span>Contact</span></a>
+    <a class="menu-item" href="/"><img src="/assets/icons/practice.svg"><span>Home</span></a>
+    <a class="menu-item" href="/method/"><img src="/assets/icons/focus.svg"><span>Method</span></a>
+    <a class="menu-item" href="/care/"><img src="/assets/icons/flow.svg"><span>Patient Care</span></a>
+    <a class="menu-item" href="/founder/"><img src="/assets/icons/people.svg"><span>Founder</span></a>
+    <a class="menu-item" href="/professionals/"><img src="/assets/icons/signal.svg"><span>Professionals</span></a>
+    <a class="menu-item" href="/contact/"><img src="/assets/icons/map.svg"><span>Contact</span></a>
   </nav>
 </aside>
 
@@ -59,7 +54,7 @@
     <h1 style="margin-top:8px;">Practice information</h1>
 
     <img src="/assets/uploads/hero-contact.JPG"
-         style="width:100%; height:auto; display:block; border-radius:16px; margin:20px 0 30px 0;" />
+         style="width:100%; border-radius:16px; margin:20px 0 30px 0;" />
 
     <div class="card">
       <p><strong>Structural Fascial Realignment</strong><br>
@@ -67,11 +62,7 @@
       220 George Bush Blvd<br>
       Delray Beach, FL 33444</p>
 
-      <p>Phone: <a class="tel" href="tel:+15617030636">561-703-0636</a></p>
-
-      <p class="small">
-        Care is provided by appointment only. Monday–Friday • 10:00 AM – 5:00 PM
-      </p>
+      <p>Phone: <a href="tel:+15617030636">561-703-0636</a></p>
     </div>
 
   </div>
@@ -81,56 +72,32 @@
   <div class="container split">
 
     <!-- PATIENT FORM -->
-    <div class="card" id="patient-evaluation">
-      <div class="kicker">Patients</div>
+    <div class="card">
       <h2>Request an evaluation</h2>
 
-      <form class="form" name="patient-evaluation" method="POST" action="/thank-you/" data-netlify="true">
+      <form name="patient-evaluation" method="POST" action="/thank-you/" data-netlify="true">
         <input type="hidden" name="form-name" value="patient-evaluation" />
 
-        <label>Full name
-          <input name="name" required />
-        </label>
-
-        <label>Phone
-          <input name="phone" required />
-        </label>
-
-        <label>Email
-          <input name="email" type="email" required />
-        </label>
-
-        <label>What are you seeking care for?
-          <textarea name="message" required></textarea>
-        </label>
+        <input name="name" placeholder="Full name" required />
+        <input name="phone" placeholder="Phone" required />
+        <input name="email" type="email" placeholder="Email" required />
+        <textarea name="message" placeholder="What are you seeking care for?" required></textarea>
 
         <button class="btn" type="submit">Send request</button>
       </form>
     </div>
 
     <!-- PROFESSIONAL FORM -->
-    <div class="card" id="professional-inquiry">
-      <div class="kicker">Professionals</div>
+    <div class="card">
       <h2>Professional inquiry</h2>
 
-      <form class="form" name="professional-inquiry" method="POST" action="/thank-you/" data-netlify="true">
+      <form name="professional-inquiry" method="POST" action="/thank-you/" data-netlify="true">
         <input type="hidden" name="form-name" value="professional-inquiry" />
 
-        <label>Name
-          <input name="name" required />
-        </label>
-
-        <label>Profession / license
-          <input name="profession" required />
-        </label>
-
-        <label>Email
-          <input name="email" type="email" required />
-        </label>
-
-        <label>Message
-          <textarea name="message" required></textarea>
-        </label>
+        <input name="name" placeholder="Name" required />
+        <input name="profession" placeholder="Profession / license" required />
+        <input name="email" type="email" placeholder="Email" required />
+        <textarea name="message" placeholder="Message" required></textarea>
 
         <button class="btn secondary" type="submit">Send inquiry</button>
       </form>
@@ -139,26 +106,11 @@
   </div>
 </section>
 
-<section class="section">
-  <div class="container">
-    <div class="card">
-      <div class="kicker">Response timing</div>
-      <h2>Thoughtful pacing</h2>
-      <p>Because care is individualized and thoughtfully paced, response times may vary.</p>
-      <p class="small">If your inquiry is time-sensitive, calling is best.</p>
-    </div>
-  </div>
-</section>
-
 </main>
 
-<footer class="site-footer compact-footer">
-  <div class="container compact-footer__inner">
-    <div><strong>Jenny Wiersma, LMT</strong></div>
-    <div>220 George Bush Blvd · Delray Beach, FL 33444 ·
-      <a class="tel" href="tel:+15617030636">561-703-0636</a>
-    </div>
-    <div class="small">MA43137 · MM43960 · © <span data-year></span> Structural Fascial Realignment</div>
+<footer class="site-footer">
+  <div class="container">
+    <strong>Jenny Wiersma, LMT</strong>
   </div>
 </footer>
 
