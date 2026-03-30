@@ -69,38 +69,48 @@
 </section>
 
 <section class="section">
-  <div class="container split">
+  <div class="container">
+
+    <!-- SELECTOR -->
+    <div style="display:flex; gap:12px; margin-bottom:30px;">
+      <button onclick="showForm('patient')" class="btn" id="btn-patient">Patient</button>
+      <button onclick="showForm('pro')" class="btn secondary" id="btn-pro">Professional</button>
+    </div>
 
     <!-- PATIENT FORM -->
-    <div class="card">
-      <h2>Request an evaluation</h2>
+    <div id="form-patient">
+      <div class="card">
+        <h2>Request an evaluation</h2>
 
-      <form name="patient-evaluation" method="POST" action="/thank-you/" data-netlify="true">
-        <input type="hidden" name="form-name" value="patient-evaluation" />
+        <form name="patient-evaluation" method="POST" action="/thank-you/" data-netlify="true">
+          <input type="hidden" name="form-name" value="patient-evaluation" />
 
-        <input name="name" placeholder="Full name" required />
-        <input name="phone" placeholder="Phone" required />
-        <input name="email" type="email" placeholder="Email" required />
-        <textarea name="message" placeholder="What are you seeking care for?" required></textarea>
+          <input name="name" placeholder="Full name" required />
+          <input name="phone" placeholder="Phone" required />
+          <input name="email" type="email" placeholder="Email" required />
+          <textarea name="message" placeholder="What are you seeking care for?" required></textarea>
 
-        <button class="btn" type="submit">Send request</button>
-      </form>
+          <button class="btn" type="submit">Send request</button>
+        </form>
+      </div>
     </div>
 
     <!-- PROFESSIONAL FORM -->
-    <div class="card">
-      <h2>Professional inquiry</h2>
+    <div id="form-pro" style="display:none;">
+      <div class="card">
+        <h2>Professional inquiry</h2>
 
-      <form name="professional-inquiry" method="POST" action="/thank-you/" data-netlify="true">
-        <input type="hidden" name="form-name" value="professional-inquiry" />
+        <form name="professional-inquiry" method="POST" action="/thank-you/" data-netlify="true">
+          <input type="hidden" name="form-name" value="professional-inquiry" />
 
-        <input name="name" placeholder="Name" required />
-        <input name="profession" placeholder="Profession / license" required />
-        <input name="email" type="email" placeholder="Email" required />
-        <textarea name="message" placeholder="Message" required></textarea>
+          <input name="name" placeholder="Name" required />
+          <input name="profession" placeholder="Profession / license" required />
+          <input name="email" type="email" placeholder="Email" required />
+          <textarea name="message" placeholder="Message" required></textarea>
 
-        <button class="btn secondary" type="submit">Send inquiry</button>
-      </form>
+          <button class="btn secondary" type="submit">Send inquiry</button>
+        </form>
+      </div>
     </div>
 
   </div>
@@ -115,5 +125,16 @@
 </footer>
 
 <script src="/script.js"></script>
+
+<script>
+function showForm(type) {
+  document.getElementById('form-patient').style.display = (type === 'patient') ? 'block' : 'none';
+  document.getElementById('form-pro').style.display = (type === 'pro') ? 'block' : 'none';
+
+  document.getElementById('btn-patient').classList.toggle('secondary', type !== 'patient');
+  document.getElementById('btn-pro').classList.toggle('secondary', type !== 'pro');
+}
+</script>
+
 </body>
 </html>
